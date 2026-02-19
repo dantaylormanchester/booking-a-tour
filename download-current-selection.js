@@ -12,7 +12,7 @@ const path = require('path');
 
 const FIGMA_FILE_KEY = '4blV8cueIOXSVyVE2l4gDB';
 const FIGMA_NODE_ID = '6188:143875';
-const FIGMA_TOKEN = process.env.FIGMA_TOKEN || 'figd_6TAj2qb24EbDJt3A-S-KNUILYum7faVRjRr21KYk';
+const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const TARGET_FILENAME = 'cc35a8a3508d9424d41cb8ade8e761cb5020deb2.png';
 const ASSETS_DIR = path.join(__dirname, 'public', 'assets');
 

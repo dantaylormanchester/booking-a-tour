@@ -6,7 +6,7 @@
 const https = require('https');
 
 const FIGMA_FILE_KEY = 'SENdzNzEvY34jswc3Ghsoi'; // ECOM-1 Dev
-const FIGMA_TOKEN = process.env.FIGMA_TOKEN || 'figd_6TAj2qb24EbDJt3A-S-KNUILYum7faVRjRr21KYk';
+const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 
 function extractNodeId(input) {
   if (input.includes('figma.com')) {

@@ -8,7 +8,7 @@ const https = require('https');
 const fs = require('fs');
 
 const FIGMA_FILE_KEY = '4blV8cueIOXSVyVE2l4gDB';
-const FIGMA_TOKEN = process.env.FIGMA_TOKEN || 'figd_6TAj2qb24EbDJt3A-S-KNUILYum7faVRjRr21KYk';
+const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const PARENT_NODE_ID = '6192:170731'; // The card node
 
 function getFigmaFile() {

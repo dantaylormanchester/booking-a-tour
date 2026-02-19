@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const FIGMA_FILE_KEY = '4blV8cueIOXSVyVE2l4gDB';
-const FIGMA_TOKEN = process.env.FIGMA_TOKEN || 'figd_6TAj2qb24EbDJt3A-S-KNUILYum7faVRjRr21KYk';
+const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 // Target filename - can be overridden via command line
 const TARGET_FILENAME = process.argv[3] || 'ba620563e50bd248d76fc152b1368f045ee5795e.png'; // VIP Stadium Tour
 const ASSETS_DIR = path.join(__dirname, 'public', 'assets');

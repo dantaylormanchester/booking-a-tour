@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 const FIGMA_FILE_KEY = 'SENdzNzEvY34jswc3Ghsoi';
-const FIGMA_TOKEN = process.env.FIGMA_TOKEN || 'figd_6TAj2qb24EbDJt3A-S-KNUILYum7faVRjRr21KYk';
+const FIGMA_TOKEN = process.env.FIGMA_TOKEN;
 const ASSETS_DIR = path.join(__dirname, 'public', 'assets');
 
 function getFigmaImageExport(nodeId, format = 'svg') {
