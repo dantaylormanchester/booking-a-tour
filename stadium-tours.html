@@ -1918,9 +1918,12 @@
     /* Info Sheet Overlay */
     .info-sheet-overlay {
       position: fixed;
-      inset: 0;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 375px;
       max-width: 375px;
-      margin: 0 auto;
       background-color: rgba(0, 24, 56, 0.5);
       z-index: 2000;
       display: flex;
@@ -1930,7 +1933,7 @@
     }
 
     .info-sheet-overlay--addons {
-      /* Keep same max-width as base overlay for mobile design consistency */
+      /* Keep same width constraint as base overlay for mobile design consistency */
     }
 
     .info-sheet {
