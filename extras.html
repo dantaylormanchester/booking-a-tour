@@ -614,8 +614,10 @@
       transform: translateX(-50%);
       width: 375px;
       max-width: 375px;
-      padding: var(--spacing-6) var(--spacing-6) var(--spacing-8);
+      padding-top: var(--spacing-6);
       padding-bottom: calc(var(--spacing-8) + env(safe-area-inset-bottom, 0));
+      padding-left: var(--spacing-6);
+      padding-right: var(--spacing-6);
       background-color: var(--color-bg-base-white);
       box-shadow: 0 -2px 8px rgba(0, 24, 56, 0.06);
       box-sizing: border-box;
@@ -623,8 +625,7 @@
     }
 
     .extras-footer .basket-cta {
-      width: calc(100% - var(--spacing-6) * 2);
-      margin: 0 auto;
+      width: 100%;
       height: var(--button-height-small);
       padding: var(--spacing-4) var(--spacing-5);
       background-color: var(--color-content-primary);
