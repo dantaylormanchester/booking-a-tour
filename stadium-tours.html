@@ -167,6 +167,7 @@
       --border-width-xsmall: 1px;
       --border-width-medium: 2px;
       --button-height-small: 36px;
+      --input-height: 44px;
       --blur-xsmall: 4px;
       --loading-spinner-size: 80px;
       --color-bg-alpha-dark-blue-80: rgba(0, 24, 56, 0.8);
@@ -684,8 +685,8 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: var(--button-height-small);
-      padding: var(--spacing-3) var(--spacing-4);
+      height: var(--input-height);
+      padding: 0 var(--spacing-4);
       background-color: var(--color-bg-default);
       border: var(--border-width-xsmall) solid var(--color-border-default);
       border-radius: var(--border-radius-medium);
@@ -757,8 +758,8 @@
 
     .booking-widget__submit {
       width: 100%;
-      height: var(--button-height-small);
-      padding: var(--spacing-4) var(--spacing-5);
+      height: var(--input-height);
+      padding: 0 var(--spacing-5);
       background-color: var(--color-content-primary);
       border: none;
       border-radius: var(--border-radius-medium);
@@ -768,6 +769,9 @@
       letter-spacing: 0.12px;
       color: var(--color-content-on-dark);
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .booking-widget__cancellation {
